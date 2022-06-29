@@ -238,7 +238,7 @@ public class PetCore extends JavaPlugin implements IPetsPlugin {
         PET_CONFIG = null;
         SPAWN_UTIL = null;
 
-        // Detected a reload...
+        // Detected a reload.
         if (!isShuttingDown()) {
             SimplePets.getDebugLogger().debug(DebugBuilder.build().setMessages(
                     "------------------------------------",
